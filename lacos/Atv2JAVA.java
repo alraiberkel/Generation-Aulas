@@ -1,5 +1,7 @@
 package br.com.rafaela.lacos;
 
+/*2- Faça um programa que entre com três números e coloque em ordem crescente.*/
+
 import java.util.Scanner;
 
 public class Atv2JAVA {

@@ -1,6 +1,8 @@
 package br.com.rafaela.lacos;
 
 import java.util.Scanner;
+/*3- Faça um programa que receba a idade de uma pessoa e mostre na saída em qual
+categoria ela se encontra:*/
 
 public class Atv3JAVA {
 

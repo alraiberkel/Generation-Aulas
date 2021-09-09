@@ -6,9 +6,9 @@ public class TestaCliente {
 	
 		Cliente cli1 = new Cliente();
 		
-		cli1.setNome("Vagner");
+		cli1.setNome("Vilma");
 		cli1.setCpf("555.808.985-11");
-		cli1.setEmail("vagner@gmail.com");
+		cli1.setEmail("vilma@gmail.com");
 		cli1.setEndereco("Rua: Da Felicidade, 190");
 		cli1.setIdade(104);
 		

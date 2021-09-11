@@ -1,8 +1,30 @@
 package polimorfismo;
 
-	public interface Animalp {
+	public class Animalp {
 	
-	public void emitirsom ();
-	 public void correr();
 	
+	public abstract class AnimalP {	
+
+	public abstract void acao(); 
+	public abstract void emitirSom();
+
+
+	String nome;
+	int idade;
+	
+	public String getNome() {
+		return nome;
 	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+
+	}
+}

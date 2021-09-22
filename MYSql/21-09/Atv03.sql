@@ -45,6 +45,7 @@ USE db_farmacia_do_bem;
 			
             SELECT * FROM tb_categoria;
             SELECT * FROM tb_categoria WHERE tb_categoria.produto LIKE "%B%";
+
             SELECT * FROM tb_categoria INNER JOIN tb_produto ON tb_categoria.produto_id = tb_produto.id;
             SELECT * FROM tb_categoria WHERE categoria_id =1;
             

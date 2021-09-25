@@ -31,20 +31,20 @@ USE db_generation_game_online;
     
     INSERT INTO tb_personagem(nome,planeta,cor,poderzinho,idade,classe_id)
 	VALUES 		("sl_saturn", "saturno", "roxo", "controle_tempo", 20, 5),
-			("sl_pluto", "plutão", "rosa", "teletransporte_voar", 50, 4),
-			("sl_venus", "vênus", "amarelo", "super_inteligencia", 30, 3),
-			("sl_moon", "lua", "vermelho", "manipular_vento", 80, 3),
-			("sl_mercury", "mercurio", "azul", "velocidade_luz", 90 ,1),
-			("sl_galaxia", "moon", "verde", "super_força", 30, 2),
-            		("sl_neptune", "netuno", "amarelo", "poderes_agua", 70, 3),
-            		("sl_uranus", "urano", "cinza", "manipulação_som", 40, 1);
+				("sl_pluto", "plutão", "rosa", "teletransporte_voar", 50, 4),
+				("sl_venus", "vênus", "amarelo", "super_inteligencia", 30, 3),
+				("sl_moon", "lua", "vermelho", "manipular_vento", 80, 3),
+				("sl_mercury", "mercurio", "azul", "velocidade_luz", 90 ,1),
+				("sl_galaxia", "moon", "verde", "super_força", 30, 2),
+				("sl_neptune", "netuno", "amarelo", "poderes_agua", 70, 3),
+				("sl_uranus", "urano", "cinza", "manipulação_som", 40, 1);
 		
             
             SELECT * FROM tb_classe WHERE ataque > 2000;
             SELECT * FROM tb_classe WHERE defesa > 1000 AND defesa < 2000;
 			
             SELECT * FROM tb_classe;
-	    SELECT * FROM tb_personagem;
+			SELECT * FROM tb_personagem;
             SELECT * FROM tb_personagem WHERE tb_personagem.nome LIKE "%C%";
             SELECT * FROM tb_personagem INNER JOIN tb_classe ON tb_personagem.classe_id = tb_classe.id;
             SELECT * FROM tb_personagem WHERE classe_id = 3;

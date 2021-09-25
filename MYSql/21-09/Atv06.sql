@@ -2,6 +2,7 @@ CREATE DATABASE db_cursoDaMinhaVida;
 
 USE db_cursoDaMinhaVida;
 
+
 CREATE TABLE tb_categoria(
 	id BIGINT(10) AUTO_INCREMENT NOT NULL,
 	tipo_curso VARCHAR (20) NOT NULL,

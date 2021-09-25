@@ -1,12 +1,13 @@
 CREATE DATABASE generation;
 
+USE generation;
+
 CREATE TABLE func_rh(
 id BIGINT AUTO_INCREMENT PRIMARY KEY,
 	nome VARCHAR (20) NOT NULL,
 	salario DECIMAL NOT NULL,
 	ativo BOOLEAN NOT NULL	
 );
-USE generation;
 
 INSERT INTO func_rh(nome,salario,ativo)
 VALUES ("Rafaela", 2500, TRUE),

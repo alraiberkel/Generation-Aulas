@@ -17,9 +17,7 @@ CREATE TABLE tb_produto(
 			(TRUE, "pequeno", 4),
             (FALSE, "grande", 5);
          
-          
-            
-            
+
 	CREATE TABLE tb_categoria(
 	id BIGINT(10) AUTO_INCREMENT NOT NULL,
 	fruta VARCHAR(40) NOT NULL,
